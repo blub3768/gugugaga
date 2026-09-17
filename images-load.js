@@ -1,0 +1,1 @@
+for(const e of Object.values(EXAMS)){for(const q of e.questions){for(const m of [...q.images,...q.context])m.src=QUIZ_ASSETS[m.src];}for(const m of e.references)m.src=QUIZ_ASSETS[m.src];}
